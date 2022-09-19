@@ -57,3 +57,14 @@ body {
     box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #ffffff;
     transition: 0.2s;
 }
+
+@media screen and (max-width: 640px) {
+    #mainstopwatch {
+        width: 269px;
+    }
+
+    #mainstopwatch button {
+        font-size: 19px;
+        width: 79px;
+    }
+}
